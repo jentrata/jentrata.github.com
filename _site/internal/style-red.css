@@ -1,0 +1,204 @@
+@charset "utf-8";
+
+/*  
+Theme Name: Maximus
+Description:   Corporate > Business
+Version: 1
+Author: MixerTheme
+Author URI: http://themeforest.net/user/MixerTheme
+*/
+
+
+h4							{color:#CE0000;}
+
+/* ============================== Menu Button =================================== */
+
+#menu li.current-menu-item a,
+#menu li.current-menu-parent a,
+#menu li.current_page_parent a,
+#menu li.current_page_item a,
+#menu li.current-menu-ancestor a,
+#menu li a.selected,
+#menu li a:hover			{
+							border:1px solid #910000;
+							background:url(../images/red/menu_px.gif) top repeat-x #CE0000;
+							}
+							
+#menu li.current-menu-item a:after,
+#menu li.current-menu-parent a:after,
+#menu li.current_page_parent a:after,
+#menu li.current_page_item a:after,
+#menu li.current-menu-ancestor a:after,
+#menu li a.selected:after,
+#menu li a:hover:after		{border-top:1px solid #EC6666;}
+
+/* ============================== BX Slider =================================== */
+
+.bxslider_wrap a.prev		{background:url(../images/red/arr.png) 0 -59px no-repeat;}
+.bxslider_wrap a:hover.prev {background:url(../images/red/arr.png) 0 0 no-repeat;}
+.bxslider_wrap a.next		{background:url(../images/red/arr.png) -59px -59px no-repeat;}
+.bxslider_wrap a:hover.next {background:url(../images/red/arr.png) -59px 0 no-repeat;}
+
+/* ============================== Nivo-Slider =================================== */
+
+a.nivo-prevNav 				{background:url(../images/red/arr.png) 0 -59px no-repeat;}
+a:hover.nivo-prevNav		{background:url(../images/red/arr.png) 0 0 no-repeat;}
+a.nivo-nextNav 				{background:url(../images/red/arr.png) -59px -59px no-repeat;}
+a:hover.nivo-nextNav		{background:url(../images/red/arr.png) -59px 0 no-repeat;}
+
+/* ============================== S3Slider =================================== */
+
+.s3sliderImage .s3sliderleft,
+.s3sliderImage .s3sliderright {background-color: #CE0000;}
+
+/* ============================== Slider =================================== */
+
+div.tmpSlideCopy 			{background-color: #CE0000;}
+
+
+a 							{
+							text-decoration:underline;
+							color:#CE0000;									/* --------------- red Link Color -------------------------------- */
+							}
+
+h2 a:hover					{
+							color:#CE0000;									/* --------------- red Hover Color -------------------------------- */
+							text-decoration:none;
+							}
+
+ul li a:hover				{
+							color:#CE0000;									/* --------------- red Hover Color -------------------------------- */
+							text-decoration:none;
+							}
+
+input:focus,
+textarea:focus	{
+				background:#FCFCFC;
+				box-shadow:0 0 3px #CE0000;				/* -- red Shadow Color for Opera 10.5+, future browsers, and now also Internet Explorer 6+ using IE-CSS3 */
+				-moz-box-shadow:0 0 3px #CE0000;				/* --------------- red Shadow Color for Firefox ------------------------------- */
+				-webkit-box-shadow:0 0 3px #CE0000;				/* --------------- red Shadow Color for Safari and Chrome --------------------- */
+				
+				}
+				
+input[type=submit]	{
+				border:1px solid #282F37;
+				color:#fff;
+				background:#444A50;
+				}
+
+input[type=submit]:hover,
+input[type=submit]:focus	{
+				background:#CE0000;
+				color:#fff;									/* --------------- red :Hover and :focus Color -------------------------------- */
+				}
+
+#simple_header	{
+				background:url(../images/red/head_top.gif) top repeat-x #BC0000;	/* ----------- red Header Background Color ------------ */
+				}
+
+.posted a		{
+				color:#CE0000;									/* --------------- red link Color -------------------------------- */
+				text-decoration:none;
+				}
+
+.gototop a:hover{
+				color:#CE0000;									/* --------------- red Hover Color -------------------------------- */
+				text-decoration:none;
+				}
+
+#breadcrumbs a:hover	{
+				color:#CE0000;									/* --------------- red Breadcrumb item :Hover Color -------------------------------- */
+				text-decoration:none;
+				}
+
+a.more,
+a.more_r,
+a.btn		{
+				border:1px solid #282F37;
+				color:#fff;
+				background:#444A50;
+				}
+				
+a.more:before,
+a.more_r:before,
+a.btn:before	{border-top:1px solid #8F9296;}
+
+a:hover.more:before,
+a:hover.more_r:before,
+a:hover.btn:before	{border-top:1px solid #EC6666;}
+
+a:hover.more,
+a:hover.more_r,
+a:focus.more,
+a:focus.more_r,
+a:hover.btn,
+a:focus.btn	{
+				border:1px solid #910000;
+				background:#CE0000;
+				color:#fff;									/* --------------- red :Hover and :focus Color -------------------------------- */
+				}
+				
+#s3slider a:hover.more, #s3slider a:hover.more_r, #s3slider a:focus.more, #s3slider a:focus.more_r,
+#tmpSlideshow a:hover.more, #tmpSlideshow a:hover.more_r, #tmpSlideshow a:focus.more, #tmpSlideshow a:focus.more_r
+				{
+				border:1px solid #282F37;
+				color:#EC6666;
+				background:#444A50;
+				}
+				
+#s3slider a:hover.more:before, #s3slider a:hover.more_r:before,
+#tmpSlideshow a:hover.more:before, #tmpSlideshow a:hover.more_r:before
+				{border-top:1px solid #8F9296;}
+
+#sidebar .widget_nav_menu li.current-menu-item,
+#sidebar .widget_nav_menu li:hover.current-menu-item,
+#sidebar .widget_nav_menu li.current_page_item,
+#sidebar .widget_nav_menu li:hover.current_page_item {
+				background:#CE0000;
+				}
+				
+#sidebar .widget_nav_menu li.current-menu-item:before,
+#sidebar .widget_nav_menu li.current_page_item:before {
+				border-top:1px solid #EC6666;
+				}
+				
+#sidebar .widget_nav_menu li.current-menu-item:after,
+#sidebar .widget_nav_menu li.current_page_item:after {
+				border-bottom:1px solid #EC6666;
+				}
+
+.display li a.more_link {
+				color:#CE0000;									/* --------------- red More Link Color -------------------------------- */
+				text-decoration:underline;
+				}
+
+a.reply_comment	{
+				display:block;
+				text-align:center;
+				color:#CE0000;									/* --------------- red Reply Comment Link Color -------------------------------- */
+				text-decoration:underline;
+				}
+
+#footer_higher .widget_custom_cf7 input[type=submit]:hover	{color:#EC6666;}		/* --------------- red Text Hover Submit Color ---------------------------- */
+#footer_higher .widget_custom_cf7 input[type=submit]:focus	{
+				background:#444A50;
+				color:#EC6666;									/* --------------- red Text Focus Color -------------------------------- */
+				box-shadow:-1px -2px 1px #1A1F24;
+				-moz-box-shadow:-1px -2px 1px #1A1F24;
+				-webkit-box-shadow:-1px -2px 1px #1A1F24;
+				box-shadow:-1px -2px 1px #1A1F24;
+				}
+				
+/* ---- Tabs Menu ---- */
+
+#content .tabs		{border-bottom:3px solid #BC0000;}
+
+#content .tabs li a:hover,
+#content .tabs li a:focus,
+#content .tabs li a:active,
+#content .tabs li.current a	{
+				color:#fff;
+				background:#BC0000;
+				}
+				
+#sidebar .widget_tabbed b a:hover	{color:#BC0000;}

@@ -1,0 +1,206 @@
+
+<link rel="stylesheet" id="css_main-css" href="./internal/style.css" type="text/css" media="all">
+{% include style.textile %}
+
+<link rel="icon" href="http://www.jentrata.org/images/favicon.png" type="image/png"/>
+
+<link rel="stylesheet" id="css_ddsmoothmenu-css" href="./internal/ddsmoothmenu.css" type="text/css" media="all">
+<link rel="stylesheet" id="css_tipsy-css" href="./internal/tipsy.css" type="text/css" media="all">
+
+<script type="text/javascript" src="./internal/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="./internal/js/cufon/cufon-yui.js"></script>
+
+<style type="text/css">
+cufon {
+	text-indent:0!important;
+}
+@media screen, projection {
+cufon {
+	display:inline!important;
+	display:inline-block!important;
+	position:relative!important;
+	vertical-align:middle!important;
+	font-size:1px!important;
+	line-height:1px!important;
+}
+cufon cufontext {
+	display:-moz-inline-box!important;
+	display:inline-block!important;
+	width:0!important;
+	height:0!important;
+	overflow:hidden!important;
+	text-indent:-10000in!important;
+}
+cufon canvas {
+	position:relative!important;
+}
+}
+@media print {
+cufon {
+	padding:0!important;
+}
+cufon canvas {
+	display:none!important;
+}
+}
+</style>
+<script type="text/javascript" src="./internal/js/MgOpen_Modata_400-MgOpen_Modata_700.font.js"></script>
+<script type="text/javascript" src="./internal/js/cufon/cufon-load.js"></script>
+<script type="text/javascript" src="./internal/js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="./internal/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="./internal/js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="./internal/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="./internal/js/jquery.watermarkinput.js"></script>
+<script type="text/javascript" src="./internal/js/sliding_effect.js"></script>
+<script type="text/javascript" src="./internal/js/jquery.flexibleColumns.min.js"></script>
+<script type="text/javascript" src="./internal/js/jquery.color.js"></script>
+<script type="text/javascript" src="./internal/js/jquery.tools.tabs.min.js"></script>
+<script type="text/javascript" src="./internal/js/comment-reply.js"></script>
+
+<link rel="index" title="jentrata" href="http://www.jentrata.org">
+<link rel="next" title="Open Source B2B Gateway" href="http://www.jentrata.org/">
+
+<link rel="canonical" href="./index.html">
+
+<script type="text/javascript"></script>
+<script type="text/javascript">
+		ddsmoothmenu.init({
+			mainmenuid: "menu", //menu DIV id
+			orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+			classname: 'ddsmoothmenu', //class added to menu's outer DIV
+			//customtheme: ["#1c5a80", "#18374a"],
+			contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+		})
+		jQuery(function() {
+			var slide = false;
+			var height = jQuery('#footer_content').height();
+			jQuery('#footer_button').click(function() {
+				var docHeight = jQuery(document).height();
+				var windowHeight = jQuery(window).height();
+				var scrollPos = docHeight - windowHeight + height;
+				jQuery('#footer_content').animate({ height: "toggle"}, 1000);
+				if(slide == false) {
+					if(jQuery.browser.opera) {
+						jQuery('html').animate({scrollTop: scrollPos+'px'}, 1000);
+					} else {
+						jQuery('html, body').animate({scrollTop: scrollPos+'px'}, 1000);
+					}
+					slide = true;
+					jQuery('#footer_content').autoAlign('.widget-container', 50);
+				} else {
+					slide = false;
+				}
+			});
+		});
+		jQuery(function() {
+			jQuery('#attr a').tipsy(
+			{
+				gravity: 's', // nw | n | ne | w | e | sw | s | se
+				fade: true
+			});
+		});
+		jQuery(function(){
+			jQuery("#search").Watermark("Search");
+		});
+		jQuery(function(){
+			jQuery.localScroll();
+		});
+		jQuery(function() {
+			jQuery('.display img.a').hide();//hide all the images on the page
+		});
+
+		var i = 0;//initialize
+		var int=0;//Internet Explorer Fix
+		jQuery(window).bind("load", function() {//The load event will only fire if the entire page or document is fully loaded
+			var int = setInterval("doThis(i)",500);//500 is the fade in speed in milliseconds
+		});
+		function doThis() {
+			var imgs = jQuery('.display img.a').length;//count the number of images on the page
+			if (i >= imgs) {// Loop the images
+				clearInterval(int);//When it reaches the last image the loop ends
+			}
+			jQuery('.display img.a:hidden').eq(0).fadeIn(500);//fades in the hidden images one by one
+			i++;//add 1 to the count
+		}
+
+		jQuery(document).ready(function() {
+			// find the div.fade elements and hook the hover event
+			jQuery('#attr a').hover(function() {
+				// on hovering over find the element we want to fade *up*
+				var fade = jQuery('> .hover', this);
+
+				// if the element is currently being animated (to fadeOut)...
+				if (fade.is(':animated')) {
+					// ...stop the current animation, and fade it to 1 from current position
+					fade.stop().fadeTo(300, 1);
+				} else {
+					fade.fadeIn(300);
+				}
+			}, function () {
+				var fade = jQuery('> .hover', this);
+				if (fade.is(':animated')) {
+					fade.stop().fadeTo(300, 0);
+				} else {
+					fade.fadeOut(300);
+				}
+			});
+
+			// get rid of the text
+			jQuery('#attr a > .hover').empty();
+
+			
+
+			jQuery("a.switch_thumb").toggle(function(){
+				jQuery(this).addClass("swap");
+				jQuery("ul.display").fadeOut("fast", function() {
+					jQuery(this).fadeIn("fast").addClass("thumb_view");
+				});
+			}, function () {
+				jQuery(this).removeClass("swap");
+				jQuery("ul.display").fadeOut("fast", function() {
+					jQuery(this).fadeIn("fast").removeClass("thumb_view");
+				});
+			});
+			jQuery(".display img.b").fadeTo("slow", 0); // This sets the opacity of the thumbs to fade down to 0% when the page loads
+			jQuery(".display img.b").hover(function(){
+				jQuery(this).fadeTo("slow", 0.5); // This should set the opacity to 50% on hover
+			},function(){
+				jQuery(this).fadeTo("slow", 0); // This should set the opacity back to 0% on mouseout
+			});
+			jQuery(".pic, .pic_left, .pic_right, .flickr img").css({
+					backgroundColor: "#fff",
+					borderColor: "#D5D5D5"
+				});
+			jQuery(".pic, .pic_left, .pic_right, .flickr img").hover(function() {
+				jQuery(this).stop().animate({
+					backgroundColor: "#666",
+					borderColor: "#333"
+					}, 300);
+				},function() {
+				jQuery(this).stop().animate({
+					backgroundColor: "#fff",
+					borderColor: "#D5D5D5"
+					}, 500);
+			});
+			jQuery(".tabs_container").each(function(){
+				jQuery("ul.tabs",this).tabs("div.panes > div", {tabs:'li',effect: 'fade'});
+			});
+			
+		});
+	</script>
+<script type="text/javascript">
+		jQuery(document).ready(function($) {
+			 jQuery('.toggle-flat-triger').click(function() {
+				  var state = jQuery(this).parent().find('.toggle-flat-content').css('display');
+				  var parent = jQuery(this).parent();
+				  if(state == 'none') {
+						jQuery(parent).find('.toggle-flat-icon-open').removeClass('toggle-flat-icon-open').addClass('toggle-flat-icon-close');
+						jQuery(parent).find('.toggle-flat-triger').css('background-color', '#181818');
+				  } else {
+						jQuery(parent).find('.toggle-flat-icon-close').removeClass('toggle-flat-icon-close').addClass('toggle-flat-icon-open');
+						jQuery(parent).find('.toggle-flat-triger').css('background-color', '#0A0A0A');
+				  }
+				  jQuery(parent).find('.toggle-flat-content').slideToggle(200);
+			 });
+		});
+	</script>

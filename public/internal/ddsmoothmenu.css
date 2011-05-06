@@ -1,0 +1,293 @@
+#menu ul.ddsmoothmenu{
+margin:0;
+padding:0;
+list-style:none;
+float:right;
+position:relative;
+z-index:10000;
+}
+
+
+/*Top level list items*/
+#menu ul.ddsmoothmenu li{
+position: relative;
+display: inline;
+float: left;
+}
+
+#menu ul.ddsmoothmenu ul li {
+margin:0;
+padding:0;
+}
+
+/*Top level menu link items style*/
+#menu ul.ddsmoothmenu li li {
+font:10px Arial, Helvetica, sans-serif !important;
+text-transform:uppercase;
+border: 1px solid #2A323A;
+*border: none;
+*background: #2A323A;
+}
+
+#menu ul.ddsmoothmenu li li a{
+width: 120px; /*width of sub menus*/
+height:auto;
+float:none;
+display: block;
+text-align:left;
+background: #2A323A; /*background of menu items (default state)*/
+color: #ffffff;
+text-shadow:none;
+margin:0;
+padding:6px 20px;
+text-decoration: none;
+border-top:1px solid #2A323A;
+*border: none;
+}
+
+* html #menu ul.ddsmoothmenu li li a{ /*IE6 hack to get sub menu links to behave correctly*/
+display: inline-block;
+}
+
+#menu ul.ddsmoothmenu li li a:link, #menu ul.ddsmoothmenu li li a:visited{
+color: #ffffff;
+}
+
+#menu ul.ddsmoothmenu li li a.selected{ /*CSS class that's dynamically added to the currently active menu items' LI A element*/
+background: #CBCBCB;
+border-top:1px solid #E0E0E0;
+*border-top:none;
+color: #2A323A;
+/*
+filter:alpha(opacity=90);
+-moz-opacity:0.9;
+-khtml-opacity: 0.9;
+opacity: 0.9;
+*/
+}
+
+#menu ul.ddsmoothmenu li li a:hover{
+background: #CBCBCB; /*background of menu items during onmouseover (hover state)*/
+border-top:1px solid #E0E0E0;
+*border-top:none;
+color: #2A323A;
+/*
+filter:alpha(opacity=90);
+-moz-opacity:0.9;
+-khtml-opacity: 0.9;
+opacity: 0.9;
+*/
+}
+	
+/*1st sub level menu*/
+#menu ul.ddsmoothmenu li ul{
+position: absolute;
+left: 0;
+margin-top:12px;
+padding-top:5px;
+background:url(../images/menu_pointer.gif) 18px 0 no-repeat;
+display: none; /*collapse all sub menus to begin with*/
+visibility: hidden;
+*margin-top:14px;
+}
+
+/*Sub level menu list items (undo style from Top level List Items)*/
+#menu ul.ddsmoothmenu li ul li{
+display: list-item;
+float: none;
+}
+
+/*All subsequent sub menu levels vertical offset after 1st level sub menu */
+#menu ul.ddsmoothmenu li ul li ul{
+margin-top:-1px;
+padding-top:0;
+background:none;
+top: 0;
+margin-left:-1px;
+*margin-left:0;
+*margin-top:0;
+}
+
+/* Holly Hack for IE \*/
+* html .ddsmoothmenu{height: 1%;} /*Holly Hack for IE7 and below*/
+
+
+/* ######### CSS classes applied to down and right arrow images  ######### */
+
+.downarrowclass{
+position: absolute;
+top: 16px;
+right: 7px;
+display:none;
+}
+
+.rightarrowclass{
+display:block;
+width:7px;
+height:11px;
+position: absolute;
+margin-top:-6px;
+top: 50%;
+right: 8px;
+background:url(../images/right.gif) 0 0 no-repeat;
+}
+
+/* ######### CSS for shadow added to sub menus  ######### */
+
+.ddshadow{
+position: absolute;
+left: 0;
+top: 0;
+}
+
+/* ----------------------------- Color Variations -------------------------------- */
+
+#menu ul.ddsmoothmenu li li a.orange:hover{
+background: #FF9000; /*background of menu items (default state)*/
+border-top: 1px solid #FF7800;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.lime:hover{
+background: #9FBD00; /*background of menu items (default state)*/
+border-top: 1px solid #7CA300;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.black:hover{
+background: #363636; /*background of menu items (default state)*/
+border-top: 1px solid #2A2A2A;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.blue:hover{
+background: #0057A5; /*background of menu items (default state)*/
+border-top: 1px solid #004481;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.green:hover{
+background: #33AB09; /*background of menu items (default state)*/
+border-top: 1px solid #278907;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.magenta:hover{
+background: #E2006F; /*background of menu items (default state)*/
+border-top: 1px solid #D60057;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.silver:hover{
+background: #979798; /*background of menu items (default state)*/
+border-top: 1px solid #757576;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.purple:hover{
+background: #900158; /*background of menu items (default state)*/
+border-top: 1px solid #700145;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.skyblue:hover{
+background: #17B1DB; /*background of menu items (default state)*/
+border-top: 1px solid #1291CC;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.golden:hover{
+background: #AF7600; /*background of menu items (default state)*/
+border-top: 1px solid #8E5C00;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.pink:hover{
+background: #DC3299; /*background of menu items (default state)*/
+border-top: 1px solid #CD2777;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.emerald:hover{
+background: #00AF9E; /*background of menu items (default state)*/
+border-top: 1px solid #008E7B;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.violet:hover{
+background: #9611A9; /*background of menu items (default state)*/
+border-top: 1px solid #750D86;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.deepblue:hover{
+background: #0E2F48; /*background of menu items (default state)*/
+border-top: 1px solid #0B2438;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.darkred:hover{
+background: #A70000; /*background of menu items (default state)*/
+border-top: 1px solid #830000;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.lightbrown:hover{
+background: #7C6061; /*background of menu items (default state)*/
+border-top: 1px solid #614B4C;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.darkgreen:hover{
+background: #487705; /*background of menu items (default state)*/
+border-top: 1px solid #385D04;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.red:hover{
+background: #D00000; /*background of menu items (default state)*/
+border-top: 1px solid #BD0000;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.brown:hover{
+background: #584342; /*background of menu items (default state)*/
+border-top: 1px solid #453433;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.yellow:hover{
+background: #F8C500; /*background of menu items (default state)*/
+border-top: 1px solid #F5AE00;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.darkviolet:hover{
+background: #4F4269; /*background of menu items (default state)*/
+border-top: 1px solid #3D3352;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.metallicblue:hover{
+background: #88A6B8; /*background of menu items (default state)*/
+border-top: 1px solid #6A829C;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.lightbeige:hover{
+background: #BDAF9E; /*background of menu items (default state)*/
+border-top: 1px solid #A28E7B;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.bordo:hover{
+background: #751E2B; /*background of menu items (default state)*/
+border-top: 1px solid #5B1721;
+color:#fff;
+}
+
+#menu ul.ddsmoothmenu li li a.ocean:hover{
+background: #015A77; /*background of menu items (default state)*/
+border-top: 1px solid #01465D;
+color:#fff;
+}
