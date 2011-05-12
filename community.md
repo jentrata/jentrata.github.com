@@ -13,7 +13,7 @@ current-cm: current_page_item
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
 		<p>Keep up to date on the latest and greatest releases by following the Jentrata Blog.</p><p/>
-		<a href="http://plonck.com/business-on" target="_self" title="" class="btn alignleft" style="display:block;">Read More</a>
+		<a href="http://jentrata.com/blog" target="_self" title="" class="btn alignleft" style="display:block;">Read More</a>
 
 	</div>
 </div>
@@ -40,8 +40,8 @@ current-cm: current_page_item
 	</div>
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
-		<p>The Jentrata-commits group is notified of all changes to the source code or changes to issues so you can use this list to watch development and support occur.</p><p/>
-		<a href="http://groups.google.com/group/jentrata-commits" target="_self" title="" class="btn alignleft" style="display:block;">Join Group</a>
+		<p>The Jentrata-dev group is notified of all changes to the source code or changes to issues so you can use this list to watch development and support occur.</p><p/>
+		<a href="http://groups.google.com/group/jentrata-dev" target="_self" title="" class="btn alignleft" style="display:block;">Join Group</a>
 
 	</div>
 </div>
@@ -67,7 +67,7 @@ current-cm: current_page_item
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
 		<p>You can also catch us on IRC to chat via #jentrata on irc.freenode.net. If you don't have an IRC client then try the web based IRC client or the freenode java applet.</p><p/>
-		<a href="http://webchat.freenode.net/?channels=#jentrata" target="_self" title="" class="btn alignleft" style="display:block;">Follow Us</a>
+		<a href="http://webchat.freenode.net/?channels=#jentrata" target="_self" title="" class="btn alignleft" style="display:block;">Chat</a>
 
 	</div>
 </div>
@@ -76,7 +76,7 @@ current-cm: current_page_item
 <div class="auto-row-1">
 
 	<div data-place="1" class="auto-column" style="margin-right: 25px; float: left; width: 200px; min-height: 200px; ">
-		<h2>Support</h2>
+		<h2>Issues</h2>
 	</div>
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
