@@ -2,7 +2,7 @@
 title: Community
 layout: default
 kicker: Community
-message: The Jentrata community is here to help you
+message: The Jentrata community is here to help
 current-cm: current_page_item
 ---
 <div class="auto-row-1">
@@ -12,7 +12,7 @@ current-cm: current_page_item
 	</div>
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
-		<p>Keep up to date on the latest and greatest releases by following the Jentrata Blog.</p><p/>
+		<p>Keep up to date on the latest releases, design, and feature discussions by following the Jentrata Blog.</p><p/>
 		<a href="http://jentrata.com/blog" target="_self" title="" class="btn alignleft" style="display:block;">Read More</a>
 
 	</div>
@@ -26,7 +26,7 @@ current-cm: current_page_item
 	</div>
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
-		<p>We really want you to get involved in Jentrata and we love contributions. One of the easiest ways to get involved is to join the community 					discussions.The main mailing list is hosted at the Jentrata google group.</p>
+		<p>We really want you to get involved in Jentrata and we love contributions. The first way to get involved is to join the community discussions. The main mailing list is hosted at the Jentrata google group.</p>
 		<p/>
 		<a href="http://groups.google.com/group/jentrata" target="_self" title="" class="btn alignleft" style="display:block;">Join Us!</a>
 
@@ -40,7 +40,7 @@ current-cm: current_page_item
 	</div>
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
-		<p>The Jentrata-dev group is notified of all changes to the source code or changes to issues so you can use this list to watch development and support occur.</p><p/>
+		<p>The Jentrata-dev group is notified of all changes to the source code or changes to open issues so you can use this list to monitor development and support activities.</p><p/>
 		<a href="http://groups.google.com/group/jentrata-dev" target="_self" title="" class="btn alignleft" style="display:block;">Join Group</a>
 
 	</div>
@@ -53,7 +53,7 @@ current-cm: current_page_item
 	</div>
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
-		<p>You can watch us on twitter by following @jentrata or alternatively searching for jentrata or the #jentrata tag.</p><p/>
+		<p>You can follw us on twitter by following @jentrata or alternatively searching for jentrata or the #jentrata tag.</p><p/>
 		<a href="http://twitter.com/jentrata" target="_self" title="" class="btn alignleft" style="display:block;">Follow Us</a>
 
 	</div>
