@@ -1,14 +1,14 @@
 
-<link rel="stylesheet" id="css_main-css" href="./internal/style.css" type="text/css" media="all">
+<link rel="stylesheet" id="css_main-css" href="/internal/style.css" type="text/css" media="all">
 {% include style.textile %}
 
-<link rel="icon" href="http://www.jentrata.org/images/favicon.png" type="image/png"/>
+<link rel="icon" href="/images/favicon.png" type="image/png"/>
 
-<link rel="stylesheet" id="css_ddsmoothmenu-css" href="./internal/ddsmoothmenu.css" type="text/css" media="all">
-<link rel="stylesheet" id="css_tipsy-css" href="./internal/tipsy.css" type="text/css" media="all">
+<link rel="stylesheet" id="css_ddsmoothmenu-css" href="/internal/ddsmoothmenu.css" type="text/css" media="all">
+<link rel="stylesheet" id="css_tipsy-css" href="/internal/tipsy.css" type="text/css" media="all">
 
-<script type="text/javascript" src="./internal/js/jquery/jquery.js"></script>
-<script type="text/javascript" src="./internal/js/cufon/cufon-yui.js"></script>
+<script type="text/javascript" src="/internal/js/jquery/jquery.js"></script>
+<script type="text/javascript" src="/internal/js/cufon/cufon-yui.js"></script>
 
 <style type="text/css">
 cufon {
@@ -44,21 +44,22 @@ cufon canvas {
 }
 }
 </style>
-<script type="text/javascript" src="./internal/js/MgOpen_Modata_400-MgOpen_Modata_700.font.js"></script>
-<script type="text/javascript" src="./internal/js/cufon/cufon-load.js"></script>
-<script type="text/javascript" src="./internal/js/jquery.tipsy.js"></script>
-<script type="text/javascript" src="./internal/js/jquery.localscroll-min.js"></script>
-<script type="text/javascript" src="./internal/js/jquery.scrollTo-min.js"></script>
-<script type="text/javascript" src="./internal/js/ddsmoothmenu.js"></script>
-<script type="text/javascript" src="./internal/js/jquery.watermarkinput.js"></script>
-<script type="text/javascript" src="./internal/js/sliding_effect.js"></script>
-<script type="text/javascript" src="./internal/js/jquery.flexibleColumns.min.js"></script>
-<script type="text/javascript" src="./internal/js/jquery.color.js"></script>
-<script type="text/javascript" src="./internal/js/jquery.tools.tabs.min.js"></script>
-<script type="text/javascript" src="./internal/js/comment-reply.js"></script>
+<script type="text/javascript" src="/internal/js/MgOpen_Modata_400-MgOpen_Modata_700.font.js"></script>
+<script type="text/javascript" src="/internal/js/cufon/cufon-load.js"></script>
+<script type="text/javascript" src="/internal/js/jquery.tipsy.js"></script>
+<script type="text/javascript" src="/internal/js/jquery.localscroll-min.js"></script>
+<script type="text/javascript" src="/internal/js/jquery.scrollTo-min.js"></script>
+<script type="text/javascript" src="/internal/js/ddsmoothmenu.js"></script>
+<script type="text/javascript" src="/internal/js/jquery.watermarkinput.js"></script>
+<script type="text/javascript" src="/internal/js/sliding_effect.js"></script>
+<script type="text/javascript" src="/internal/js/jquery.flexibleColumns.min.js"></script>
+<script type="text/javascript" src="/internal/js/jquery.color.js"></script>
+<script type="text/javascript" src="/internal/js/jquery.tools.tabs.min.js"></script>
+<script type="text/javascript" src="/internal/js/comment-reply.js"></script>
 
 <link rel="index" title="jentrata" href="http://www.jentrata.org">
 <link rel="next" title="Open Source B2B Gateway" href="http://www.jentrata.org/">
+<link rel="alternate" type="application/atom+xml" href="/atom.xml" />
 
 <link rel="canonical" href="./index.html">
 

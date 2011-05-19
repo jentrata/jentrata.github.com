@@ -1,1 +1,1 @@
-<link rel="stylesheet" id="css_black-css" title="black" href="./internal/style-blue.css" type="text/css" media="screen">
+<link rel="stylesheet" id="css_black-css" title="black" href="/internal/style-blue.css" type="text/css" media="screen">

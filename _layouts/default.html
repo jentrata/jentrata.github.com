@@ -1,79 +1,54 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-
 <html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US" class="cufon-active cufon-ready">
 <head>
-
 {% include keywords.textile %}
-
 <title>Jentrata {{ page.title }}</title>
-
 {% include head.textile %}
-
 {% include google.textile %}
-
 </head>
 <body>
 <div id="wide" class="container">
-  <div id="top">
-    <div class="wrap">
-      
-      {% include logo.textile %}
-      
-      {% include menu.textile %}
-      
-      <div class="clear"></div>
-    </div>
-    <div id="simple_header">
-      <div class="gradient">
-        <div class="header">
-          <h1>
-          	
-              {{ page.kicker }}
-
-          </h1>
-          <p>
-          	{{ page.message }}
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-  	<div id="content" class="sbr"> 
-				<div class="content">
-    			{{ content }}
-    
+	<div id="top">
+    	<div class="wrap">
+      	{% include logo.textile %}
+      	{% include menu.textile %}
+      	<div class="clear"></div>
     	</div>
-    
-  
-  
-
-
-
-<div id="sidebar">
+    	<div id="simple_header">
+      		<div class="gradient">
+        		<div class="header">
+          			<h1>
+              		{{ page.kicker }}
+          			</h1>
+          			<p>
+          			{{ page.message }}
+          			</p>
+        		</div>
+      		</div>
+    	</div>
+	</div>
+  	<div id="content" class="sbr"> 
+		<div class="content">
+    		{{ content }}
+    	</div>
+		<div id="sidebar">
 			<div id="recentpostswidget-3" class="widget-container widget_recent_posts"><!--<h3>News</h3>-->
 			<ul>
-			{% for post in site.posts limit:4 %}
-					<li>
-						<a href="{{ post.web-url }}">
-						<img width="67" height="63" src="{{ post.image }}" class="pic_left wp-post-image" alt="Jentrata" title="Jentrata" style="background-color: rgb(255, 255, 255); border-top-color: rgb(213, 213, 213); border-right-color: rgb(213, 213, 213); border-bottom-color: rgb(213, 213, 213); border-left-color: rgb(213, 213, 213); ">						<strong class="news_title">{{ post.title }}</strong>
-						<span class="news_short">			
-			{{ post.excerpt }}</span>						
-			
-						</a>
-					</li>
-				
+			{% for post in site.categories.sidebar limit:4 %}
+				<li>
+					<a href="{{ post.web-url }}">
+						<img width="67" height="63" src="{{ post.image }}" class="pic_left wp-post-image" alt="Jentrata" title="Jentrata" style="background-color: rgb(255, 255, 255); border-top-color: rgb(213, 213, 213); border-right-color: rgb(213, 213, 213); border-bottom-color: rgb(213, 213, 213); border-left-color: rgb(213, 213, 213); ">
+						<strong class="news_title">{{ post.title }}</strong>
+						<span class="news_short">{{ post.excerpt }}</span>
+					</a>
+				</li>
 			{% endfor %}
-			
 			</ul>
-
-
 			</div>		
 		</div>
-
-		
-<div class="clear"></div> 
-		</div>
-		</div>
+		<div class="clear"></div> 
+	</div>
+</div>
 <!-- End Content -->
 <!-- Begin Footer  -->
 <div id="footer_lower">
@@ -84,11 +59,9 @@
         <li><b>
           Stay Connected
           </b></li>
-        <li><a href="http://localhost/~arthur/jentrata/?page_id=2#" class="ico_rss" original-title="RSS Feed"><span class="hover"></span></a></li>
-        <li><a href="http://localhost/~arthur/jentrata/?page_id=2#" class="ico_delicious" original-title="Delicious"><span class="hover"></span></a></li>
-        <li><a href="http://localhost/~arthur/jentrata/?page_id=2#" class="ico_fli?kr" original-title="Flickr"><span class="hover"></span></a></li>
-        <li><a href="http://localhost/~arthur/jentrata/?page_id=2#" class="ico_twitter" original-title="Twitter"><span class="hover"></span></a></li>
-        <li><a href="http://localhost/~arthur/jentrata/?page_id=2#" class="ico_facebook" original-title="Facebook"><span class="hover"></span></a></li>
+        <li><a href="atom.xml" class="ico_rss" original-title="RSS Feed"><span class="hover"></span></a></li>
+        <li><a href="http://twitter.com/jentrata" class="ico_twitter" original-title="Twitter"><span class="hover"></span></a></li>
+        <li><a href="http://facebook.com/jentrata" class="ico_facebook" original-title="Facebook"><span class="hover"></span></a></li>
       </ul>
     </div>
     <div class="clear"></div>

@@ -13,7 +13,7 @@ current-cm: current_page_item
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
 		<p>Keep up to date on the latest releases, design, and feature discussions by following the Jentrata Blog.</p><p/>
-		<a href="http://jentrata.com/blog" target="_self" title="" class="btn alignleft" style="display:block;">Read More</a>
+		<a href="/blog/" target="_self" title="" class="btn alignleft" style="display:block;">Read More</a>
 
 	</div>
 </div>
@@ -83,6 +83,18 @@ current-cm: current_page_item
 		<p>If you have a problem you can get help or try surfing our Issue Tracker</p><p/>
 		<a href="http://jentrata.assembla.com/spaces/jentrata/support/tickets" target="_self" title="" class="btn alignleft" style="display:block;">Issue Tracker</a>
 
+	</div>
+</div>
+
+<div class="auto-row-1">
+
+	<div data-place="1" class="auto-column" style="margin-right: 25px; float: left; width: 200px; min-height: 200px; ">
+		<h2>The Team</h2>
+	</div>
+
+	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
+		<p>Meet the Jentrata Team</p><p/>
+		<a href="/team.html" target="_self" title="" class="btn alignleft" style="display:block;">Meet</a>
 	</div>
 </div>
 

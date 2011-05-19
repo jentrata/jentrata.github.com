@@ -1,0 +1,29 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>jentrata.org</title>
+ <link href="http://jentrata.org/atom.xml" rel="self"/>
+ <link href="http://jentrata.org/"/>
+ <updated>{{ site.time | date_to_xmlschema }}</updated>
+ <id>http://jentrata.org/</id>
+ <author>
+   <name>Aaron Walker</name>
+   <email>aaron@jentrata.org</email>
+ </author>
+ 
+ {% for post in site.posts %}
+ {% if post.category != 'sidebar' then %}
+ <entry>
+   <title>{{ post.title }}</title>
+   <link href="http://jentrata.org{{ post.url }}"/>
+   <updated>{{ post.date | date_to_xmlschema }}</updated>
+   <id>http://jentrata.org{{ post.id }}</id>
+   <content type="html">{{ post.content | xml_escape }}</content>
+ </entry>
+ {% endif %}
+ {% endfor %}
+ 
+</feed>
