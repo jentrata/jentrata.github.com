@@ -15,7 +15,7 @@ Key amongst these improvements is the operational stability, and the provision f
 <h2>Features of Jentrata</h2>
 <ul class="unordered">
 <li>Jentrata is a pluggable and modular gateway that allows for easy extensibility.</li>
-<li>Deployable to Tomcat, Jetty, JBoss AS, or any other J2EE compliant Application Server.</li>
+<li>Deployable to Tomcat, Jetty, JBoss AS, or any other JEE compliant Application Server.</li>
 <li>Free, open source, standards based code</li>
 <li>The same codebase for the supported and community versions</li>
 <li>A Growing community of expert participants</li>
