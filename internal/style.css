@@ -1711,7 +1711,8 @@ code			{
 .ico_delicious,
 .ico_fliсkr,
 .ico_twitter,
-.ico_facebook	{
+.ico_facebook,
+.ico_linkedin	{
 				width:25px;
 				height:25px;
 				overflow:hidden;
@@ -1731,6 +1732,8 @@ a.ico_twitter	{background:url(../images/ico_twitter.png) 0 0 no-repeat;}
 a.ico_twitter .hover	{background:url(../images/ico_twitter.png) 0 -25px no-repeat;}
 a.ico_facebook	{background:url(../images/ico_facebook.png) 0 0 no-repeat;}
 a.ico_facebook .hover	{background:url(../images/ico_facebook.png) 0 -25px no-repeat;}
+a.ico_linkedin	{background:url(../images/ico_linkedin.png) 0 0 no-repeat;}
+a.ico_linkedin .hover	{background:url(../images/ico_linkedin.png) 0 -25px no-repeat;}
 
 .hover 			{
 				position: absolute;

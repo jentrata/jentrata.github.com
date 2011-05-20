@@ -4,6 +4,7 @@ layout: default
 kicker: Get Excited about B2B Gateways
 message: Find out what it is that makes Jentrata special
 current-gc: current_page_item
+keywords: automated electronic exchange, hermes ebxml, message connectivity
 ---
 <h1>Overview</h1>
 -------------------

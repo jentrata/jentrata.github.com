@@ -6,7 +6,7 @@ message: The Jentrata community is here to help
 current-cm: current_page_item
 ---
 
-<h1>Jentrata Team</h1>
+<h2>Jentrata Team</h2>
 -------------------
 The following is a list of developers with commit privileges that have directly contributed to the project in one way or another.
 <ul class="unordered">
@@ -15,7 +15,7 @@ The following is a list of developers with commit privileges that have directly 
 	<li><a href="#arthurmarinis">Arthur Marinis</a> - Markdown monkey</li>
 </ul>
 
-<h1>Contributors</h1>
+<h2>Contributors</h2>
 -------------------
 The following additional people have contributed to this project through the way of code, bug reports, suggestions or just old-fashioned encouragement
 <ul class="unordered">

@@ -1,1 +1,1 @@
-<a href="/index.html" class="logo"> <img width="101" height="72" src="/images/jentrata.png" class="attachment-600x76" alt="jentrata" title="Jentrata Open Source Integration"> </a>
+<a href="/index.html" class="logo"> <img width="101" height="72" src="/images/jentrata.png" class="attachment-600x76" alt="jentrata" title="Jentrata Open Source Integration"/> </a>

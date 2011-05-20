@@ -4,6 +4,7 @@ layout: default
 kicker: Community
 message: The Jentrata community is here to help
 current-cm: current_page_item
+keywords: jentrata blog, jentrata issues, jentrata twitter
 ---
 <div class="auto-row-1">
 
