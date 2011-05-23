@@ -230,7 +230,7 @@ input[type=submit]:focus	{
 #top			{
 				min-height:90px;
 				border-top:3px solid #101317;
-				background:url(../images/top_px.png) top repeat-x #e1e1e1;
+				background:url(../images/top_px.png) top repeat-x #FFFFFF;
 				position:relative;
 				z-index:200;
 				}
@@ -1938,3 +1938,16 @@ background: #015A77; /*background of menu items (default state)*/
 border-top: 1px solid #01465D;
 color:#fff;
 }
+
+
+/* Commercial Site */
+#menu li.page_item_com a:hover			{
+							border:1px solid #6A0000;
+							background:url(../images/darkred/menu_px.gif) top repeat-x #9A0000;
+							color:#fff;
+							}
+							
+#menu li.page_item_com a 							{
+							
+							color:#9A0000;									/* --------------- darkred Link Color -------------------------------- */
+							}

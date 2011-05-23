@@ -1,4 +1,6 @@
-safe: true
-destination: public 
+safe: false
+source:      .
+destination: ./_site
+plugins:     ./_plugins
 lsi: false
 pygments: true

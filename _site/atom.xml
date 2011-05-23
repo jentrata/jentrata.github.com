@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>jentrata.org</title>
+ <link href="http://jentrata.org/atom.xml" rel="self"/>
+ <link href="http://jentrata.org/"/>
+ <updated>2011-05-23T14:47:39+10:00</updated>
+ <id>http://jentrata.org/</id>
+ <author>
+   <name>Aaron Walker</name>
+   <email>aaron@jentrata.org</email>
+ </author>
+ 
+ 
+ <entry>
+   <title>Time to get supported?</title>
+   <link href="http://jentrata.org/blog/2011/05/19/Jentrata-support.html"/>
+   <updated>2011-05-19T00:00:00+10:00</updated>
+   <id>http://jentrata.org/blog/2011/05/19/Jentrata-support</id>
+   <content type="html">&lt;p&gt;Jentrata subscriptions provide an enterprise ready bundle that can be confidently deployed to manage even your most critical integrations.&lt;/p&gt;&lt;p&gt;Using Hermes as the baseline, the goal of Jentrata is to enhance, improve and simplify B2B integration.&lt;/p&gt;&lt;p&gt;A Jentrata subscription allows you to take advantage of our innovations from the most trusted source of open source technologies. A subscription ensures that you benefit from open source at your own pace and receive ongoing value from your investment.&lt;/p&gt;&lt;p&gt;Jentrata subscriptions give you access to the latest technology as it is tested and released. This includes upgrades to newer releases at no additional charge for as long as your subscription is active. Your subscription also includes access to Jentrata consultants, an efficient way for managing, updating, and supporting your systems. And finally, you get the reassurance that Jentrata will stand behind and support each product version for seven years.&lt;/p&gt;&lt;p&gt;If you are interested in lowering your deployment risk, receiving unlimited access to support and protecting your investment, then it is time to look at support.&lt;/p&gt;&lt;p&gt;Follow this &lt;a href='http://www.jentrata.com'&gt;link&lt;/a&gt; to see more about the support offerings available to you.&lt;/p&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>What is Jentrata?</title>
+   <link href="http://jentrata.org/blog/2011/05/19/Jentrata-launch.html"/>
+   <updated>2011-05-19T00:00:00+10:00</updated>
+   <id>http://jentrata.org/blog/2011/05/19/Jentrata-launch</id>
+   <content type="html">&lt;p&gt;write a blog post about the jentrata&lt;/p&gt;</content>
+ </entry>
+ 
+ 
+</feed>
