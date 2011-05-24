@@ -7,7 +7,7 @@ current-cm: current_page_item
 <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
 
 <div class="posted">Posted by <span class="author">{{ page.author }}</span> on {{ page.date | date_to_string }}</div>
-
-{{ page.content }}
-
+<div id="blog">
+{{ content }}
+</div>
 
