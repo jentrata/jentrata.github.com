@@ -5,14 +5,13 @@ category: blog
 author: arthurmarinis
 keywords: Jentrata Support, support, open source support, OSS, Hermes Support
 ---
-<p>Jentrata subscriptions provide an enterprise ready bundle that can be confidently deployed to manage even your most critical integrations.</p>
 
-<p>Using Hermes as the baseline, the goal of Jentrata is to enhance, improve and simplify B2B integration.</p>
+Jentrata subscriptions provide an enterprise ready bundle that can be confidently deployed to manage even your most critical integrations. Using Hermes as the baseline, the goal of Jentrata is to enhance, improve and simplify B2B integration.
 
-<p>A Jentrata subscription allows you to take advantage of our innovations from the most trusted source of open source technologies. A subscription ensures that you benefit from open source at your own pace and receive ongoing value from your investment.</p>
+A Jentrata subscription allows you to take advantage of our innovations from the most trusted source of open source technologies. A subscription ensures that you benefit from open source at your own pace and receive ongoing value from your investment.
 
-<p>Jentrata subscriptions give you access to the latest technology as it is tested and released. This includes upgrades to newer releases at no additional charge for as long as your subscription is active. Your subscription also includes access to Jentrata consultants, an efficient way for managing, updating, and supporting your systems. And finally, you get the reassurance that Jentrata will stand behind and support each product version for seven years.</p>
+Jentrata subscriptions give you access to the latest technology as it is tested and released. This includes upgrades to newer releases at no additional charge for as long as your subscription is active. Your subscription also includes access to Jentrata consultants, an efficient way for managing, updating, and supporting your systems. And finally, you get the reassurance that Jentrata will stand behind and support each product version for seven years.
 
-<p>If you are interested in lowering your deployment risk, receiving unlimited access to support and protecting your investment, then it is time to look at support.</p>
+If you are interested in lowering your deployment risk, receiving unlimited access to support and protecting your investment, then it is time to look at support.
 
-<p>Follow this <a href="http://www.jentrata.com">link</a> to see more about the support offerings available to you.</p>
+Follow this [link](http://www.jentrata.com) to see more about the support offerings available to you.

@@ -61,7 +61,7 @@ cufon canvas {
 <link rel="next" title="Open Source B2B Gateway" href="http://www.jentrata.org/"/>
 <link rel="alternate" type="application/atom+xml" href="/atom.xml" />
 
-<link rel="canonical" href="./index.html"/>
+<link rel="canonical" href="/index.html"/>
 
 <script type="text/javascript"></script>
 <script type="text/javascript">
