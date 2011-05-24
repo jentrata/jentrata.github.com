@@ -17,7 +17,7 @@ keywords: jentrata blog, jentrata issues, jentrata twitter
 		<p>&nbsp;&nbsp;&nbsp;<a href="https://github.com/jentrata/jentrata-msh">https://github.com/jentrata/jentrata-msh</a></p>
 		<p>If you are new to Git you might like to try the <a href="http://git.or.cz/course/svn.html">Git guide for subversion users</a> or have a look at the <a href="http://book.git-scm.com/">Git community book.</a></p>
 		<p/>
-		<a href="https://github.com/jentrata/jentrata-msh" target="_self" title="" class="btn alignleft" style="display:block;">Fork Me</a>
+		<a href="https://github.com/jentrata/jentrata-msh" target="_self" title="" class="btn alignleft" style="display:block;">Get the Source</a>
 
 	</div>
 </div>
