@@ -82,7 +82,7 @@ keywords: jentrata blog, jentrata issues, jentrata twitter
 
 	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
 		<p>If you have a problem you can get help or try surfing our Issue Tracker</p><p/>
-		<a href="http://jentrata.assembla.com/spaces/jentrata/support/tickets" target="_self" title="" class="btn alignleft" style="display:block;">Issue Tracker</a>
+		<a href="http://www.assembla.com/spaces/jentrata/tickets" target="_self" title="" class="btn alignleft" style="display:block;">Issue Tracker</a>
 
 	</div>
 </div>
