@@ -14,7 +14,7 @@ current-cm: current_page_item
  
  <div class="posted">Posted by <span class="author">{{ post.author }}</span> on {{ post.date | date_to_string }}</div>
 
-{{ post.content | preview:"</p>" | strip_html | append:"..." }}
+{{ post.content | strip_html | truncatewords:100 }}
  <a href="{{ post.url }}" title="Continue Reading">Continue Reading &raquo;</a>
 -------------
 {% endif %}
