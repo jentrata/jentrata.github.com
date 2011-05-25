@@ -35,7 +35,7 @@ layout: nil
     
     {% for post in site.categories.blog %}
 	<url>
-   		<loc>"http://jentrata.org{{ post.url }}"</loc>
+   		<loc>http://jentrata.org{{ post.url }}</loc>
    		<lastmod>{{ post.date | date_to_xmlschema }}</lastmod>
  	</url>
  {% endfor %}
