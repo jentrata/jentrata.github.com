@@ -6,21 +6,6 @@ message: The Jentrata community is here to help
 current-cm: current_page_item
 keywords: jentrata blog, jentrata issues, jentrata twitter
 ---
-<div class="auto-row-1">
-	
-	<div data-place="1" class="auto-column" style="margin-right: 25px; float: left; width: 200px; min-height: 200px; ">
-		<h2>Source Code</h2>
-	</div>
-
-	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
-		<p>Jentrata stores its source code in a Git repository hosted on github at this location:</p>
-		<p>&nbsp;&nbsp;&nbsp;<a href="https://github.com/jentrata/jentrata-msh">https://github.com/jentrata/jentrata-msh</a></p>
-		<p>If you are new to Git you might like to try the <a href="http://git.or.cz/course/svn.html">Git guide for subversion users</a> or have a look at the <a href="http://book.git-scm.com/">Git community book.</a></p>
-		<p/>
-		<a href="https://github.com/jentrata/jentrata-msh" target="_self" title="" class="btn alignleft" style="display:block;">Get the Source</a>
-
-	</div>
-</div>
 
 <div class="auto-row-1">
 

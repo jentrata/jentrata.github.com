@@ -85,8 +85,12 @@ ul				{list-style:none;}
 				
 ul li			{
 				margin:0;
+				padding:5px 0 5px 21px;
+				background:url(../images/arr.gif) 0 9px no-repeat;
+				/*margin:0;
 				padding:5px 0;
 				color:#434343;
+				*/
 				}
 				
 ul.unordered li	{
@@ -96,7 +100,7 @@ ul.unordered li	{
 				}
 				
 ul li a			{
-				color:#434343;
+				/* color:#434343;*/
 				text-decoration:none;
 				}
 
