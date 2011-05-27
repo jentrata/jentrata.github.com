@@ -44,7 +44,7 @@ cufon canvas {
 }
 }
 </style>
-<script type="text/javascript" src="/internal/js/MgOpen_Modata_400-MgOpen_Modata_700.font.js"></script>
+
 <script type="text/javascript" src="/internal/js/cufon/cufon-load.js"></script>
 <script type="text/javascript" src="/internal/js/jquery.tipsy.js"></script>
 <script type="text/javascript" src="/internal/js/jquery.localscroll-min.js"></script>
