@@ -100,4 +100,16 @@ keywords: jentrata blog, jentrata issues, jentrata twitter
 	</div>
 </div>
 
+<div class="auto-row-1">
 
+	<div data-place="1" class="auto-column" style="margin-right: 25px; float: left; width: 200px; min-height: 200px; ">
+		<h2>CI Server</h2>
+	</div>
+
+	<div data-place="1" class="auto-column" style="width: 295px; margin-right: 0px; float: right; min-height: 200px; ">
+		<p>Download the latest build from our Cloudbees CI Server</p><p/>
+		<a href="https://jentrata.ci.cloudbees.com/" target="_self" title="" class="btn alignleft" style="display:block;">DEV@cloud</a><br/>
+ 		<a href="http://www/cloudbees.com/foss"><img src="http://web-static-cloudfront.s3.amazonaws.com/images/badges/BuiltOnDEV.png" alt="Built and Test by Cloudbees DEV@cloud"/></a>
+
+	</div>
+</div>
