@@ -1,6 +1,4 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" /> 
-<meta name="robots" content="noindex,follow,noodp,noarchive,noydir" /> 
-<link rel="canonical" href="http://www.base2services.com/" /> 
 
 <meta name="keywords" content="Hermes, ebXML, AS2, B2B, Business to Business, Business 2 Business, B2B Gateway, Secure Exchange, Exchange, Integration, {{ page.keywords }}" /> 
   
