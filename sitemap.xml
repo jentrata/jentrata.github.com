@@ -9,7 +9,7 @@ layout: nil
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
    <url>
-        <loc>http://www.jentrata.org/blog</loc>
+        <loc>http://www.jentrata.org/blog/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     
