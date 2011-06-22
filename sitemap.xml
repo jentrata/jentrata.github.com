@@ -10,23 +10,23 @@ layout: nil
     </url>
     
     <url>
-        <loc>http://www.jentrata.org/community</loc>
+        <loc>http://www.jentrata.org/community.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/documentation</loc>
+        <loc>http://www.jentrata.org/documentation.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/downloads</loc>
+        <loc>http://www.jentrata.org/downloads.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/getexcited</loc>
+        <loc>http://www.jentrata.org/getexcited.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/team</loc>
+        <loc>http://www.jentrata.org/team.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     
