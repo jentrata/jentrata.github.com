@@ -1943,6 +1943,11 @@ border-top: 1px solid #01465D;
 color:#fff;
 }
 
+#social_share{width:600px;margin:0 0 10px 0;overflow:hidden}
+#retweet{float:left;width:103px}
+#fblike{float:left;width:90px;top:4px;left:50px}
+#digg{float:left;width:82px}
+#googleplus{float:left;width:82px}
 
 /* Commercial Site */
 #menu li.page_item_com a:hover			{
