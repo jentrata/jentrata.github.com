@@ -7,7 +7,44 @@ current-cm: current_page_item
 <h2><a href="{{ page.url }}">{{ page.title }}</a></h2>
 
 <div class="posted">Posted by <span class="author">{{ page.author }}</span> on {{ page.date | date_to_string }}</div>
+<div id="social_share">
+	<div id="retweet">
+		<a href="http://twitter.com/share" class="twitter-share-button" data-count="horizontal" data-via="jentrata">Tweet</a>
+		<script id="deferedjs" type="text/javascript">
+			var b = document.createElement('script');
+			b.type = 'text/javascript';
+			b.src = ('http://platform.twitter.com/widgets.js');
+			var a=document.getElementById("deferedjs");
+			a.parentNode.insertBefore(b,a);
+	</script>
+	</div>
+	<div id="digg">
+		<script type="text/javascript">
+		(function() {
+		var s = document.createElement('SCRIPT'), s1 = document.getElementsByTagName('SCRIPT')[0];
+		s.type = 'text/javascript';
+		s.async = true;
+		s.src = 'http://widgets.digg.com/buttons.js';
+		s1.parentNode.insertBefore(s, s1);
+		})();
+		</script>
+		<a class="DiggThisButton DiggCompact"></a>
+	</div>
+	<div id="googleplus">
+		<script>
+		(function(d, t) {
+		var g = d.createElement(t),
+			s = d.getElementsByTagName(t)[0];
+		g.async = true;
+		g.src = 'https://apis.google.com/js/plusone.js';
+		s.parentNode.insertBefore(g, s);
+		})(document, 'script');
+		</script>
+		<g:plusone size="medium"></g:plusone>
+	</div>
+</div>
 <div id="blog">
 {{ content }}
 </div>
+
 
