@@ -49,6 +49,20 @@
 					</a>
 				</li>
 			{% endfor %}
+			{% if page.url == '/index.html' %}
+				<li><h3><strong class="news_title">Recent Blog Posts</strong></h3></li>
+			{% for post in site.categories.blog limit:2 %}
+				<li>
+					<a href="{{ post.url }}">
+						<strong class="news_title">{{ post.title }}</strong>
+					</a>
+					<span class="news_short">
+						{{ post.content | strip_html | truncatewords:20 }}
+ 						<a href="{{ post.url }}" title="Continue Reading">Continue Reading &raquo;</a>
+ 					</span>
+				</li>
+			{% endfor %}
+			{% endif %}
 			</ul>
 			</div>		
 		</div>

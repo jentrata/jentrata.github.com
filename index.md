@@ -5,13 +5,13 @@ kicker: Jentrata Open Source B2B Gateway
 message: With heritage from Hermes, Jentrata is enhanced, maintained, supported, and has an active community.
 ---
 # Welcome to Jentrata
--------------------
+--------------------
 
 Jentrata is an Open Source B2B Gateway that uses the Hermes code as a baseline. Jentrata has taken the Hermes Gateway, 
 extended it and provided enhancements to it that improve its performance, configurability and maintainability. 
 Key amongst these improvements is the operational stability, and the provision for Jentrata to integrate directly with an ESB or other messaging backbone.
 
--------------------
+--------------------
 ## Features of Jentrata
 
 * Jentrata is a pluggable and modular gateway that allows for easy extensibility.
