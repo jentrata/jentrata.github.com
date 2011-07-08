@@ -12,7 +12,7 @@ current-cm: current_page_item
 
  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
  
- <div class="posted">Posted by <span class="author">{{ post.author }}</span> on {{ post.date | date_to_string }}</div>
+ <div class="posted">Posted by <span class="author">{{ post.author }}</span> on {{ post.date | date_to_string }} comments <a href="{{ post.url }}#disqus_thread">{{ post.title }}</a></div>
 
 {{ post.content | strip_html | truncatewords:100 }}
  <a href="{{ post.url }}" title="Continue Reading">Continue Reading &raquo;</a>
