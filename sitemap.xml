@@ -4,27 +4,27 @@ layout: nil
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
 	<url>
-        <loc>http://www.jentrata.org/</loc>
+        <loc>http://jentrata.org/</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/community.html</loc>
+        <loc>http://jentrata.org/community.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/documentation.html</loc>
+        <loc>http://jentrata.org/documentation.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/downloads.html</loc>
+        <loc>http://jentrata.org/downloads.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/getexcited.html</loc>
+        <loc>http://jentrata.org/getexcited.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/team.html</loc>
+        <loc>http://jentrata.org/team.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
