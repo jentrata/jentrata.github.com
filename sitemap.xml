@@ -28,7 +28,7 @@ layout: nil
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     <url>
-        <loc>http://www.jentrata.org/blog/index.html</loc>
+        <loc>http://jentrata.org/blog/index.html</loc>
         <lastmod>{{ site.time | date_to_xmlschema }}</lastmod>
     </url>
     {% for post in site.categories.blog %}
