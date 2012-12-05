@@ -8,4 +8,4 @@ keywords: jentrata documentation, hermes documentation, jentrata user guide, her
 ---
 # Quick Links
 -------------------
-* [Installation Guide](https://github.com/jentrata/jentrata-msh/README.md#install-and-configure-tomcat "Installation Guide") 
+* [Installation Guide](https://github.com/jentrata/jentrata-msh/blob/master/README.md#install-and-configure-tomcat "Installation Guide") 
