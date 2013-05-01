@@ -14,15 +14,9 @@ Key amongst these improvements is the operational stability, and the provision f
 -------------------
 ## Features of Jentrata
 
-* Jentrata is a pluggable and modular gateway that allows for easy extensibility.
-* Deployable to Tomcat, Jetty, JBoss AS, or any other JEE compliant Application Server.
-* Free, open source, standards based code
-* The same codebase for the supported and community versions
-* A Growing community of expert participants
-* Complies as an ebXML 2.0 MSH and AS2 gateway
-* Supported version available for ebXML
-* Delivers reliable-messaging and non-repudiation
-* Standards based secure messaging
-* Has a clear project roadmap
-
+* Jentrata is an enterprise grade B2B Gateway that is a standards compliant ebXML 2.0 MSH and AS2 gateway that has full Application/Infrastructure  support available on the ebXML gateway.
+* It has a growing community of expert participants and of implementations, driven by the quality and availability of support and the clear product roadmap - which includes a forthcoming AS4 / ebXML3.0 implementation.
+* Free, open source, standards based code, fully compliant with NBN ebXML MSH standards - with the same codebase used in the supported and community versions
+* Available as a production ready Tomcat binary download, or deployable to Tomcat, Jetty, JBoss AS, or any other JEE compliant Application Server.
+* Available as a freestanding SaaS solution.
 
