@@ -10,7 +10,7 @@ keywords: download jentrata, download hermes, latest jentrata, jentrata test
 -------------------
 * Release Notes - coming soon
 * [Latest Source](https://github.com/jentrata/jentrata-msh "Jentrata MSH Source Repository")
-* [Lastest Dev Build](https://jentrata.ci.cloudbees.com/job/jentrata-msh-master/lastSuccessfulBuild/artifact/Dist/target/jentrata-msh-tomcat.tar.gz)
+* [Lastest Dev Build](https://jentrata.ci.cloudbees.com/job/jentrata-msh-ci-nightly/lastSuccessfulBuild/artifact/Dist/target/)
 
 --------------------
 ### Source Code
