@@ -5,7 +5,7 @@
             <li class="page_item page-item-4 {{ page.current-dw }}"><a href="/downloads.html" title="Downloads">Downloads</a></li>
             <li class="page_item page-item-21 {{ page.current-dc }}"><a href="/documentation.html" title="Documentation">Documentation</a></li>
             <li class="page_item page-item-21 {{ page.current-cm }}"><a href="/community.html" title="Community">Community</a></li>
-            <li class="page_item_com {{ page.current-sup }}"><a href="http://www.base2services.com/what-we-do/support/support-subscription-for-jentrata-msh/" title="This will take you to Jentrata Commercial">Support</a></li>
+            <li class="page_item_com {{ page.current-sup }}"><a href="http://www.base2services.com/community/opensource/jentrata/" title="This will take you to Jentrata Commercial">Support</a></li>
 		</ul>
 	</div>
 </div>
