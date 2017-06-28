@@ -3,4 +3,4 @@ source:      .
 destination: ./_site
 plugins:     ./_plugins
 lsi: false
-pygments: true
+highlighter: rouge
